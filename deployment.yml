@@ -33,9 +33,11 @@ metadata:
 spec:
   selector:
     app: nodeapp
+  type: NodePort
   ports:
   - protocol: TCP
     port: 80
     targetPort: 3006
-   
+    nodePort: 31123
+
 
