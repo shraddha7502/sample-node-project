@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: apache
-          image: shraddhha7502/sample-node-app:latest
+          image: shraddhha7502/node-app:14
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3006
